@@ -1,18 +1,19 @@
-:root {
-    --grid-cols: 1;
-    --grid-rows: 1;
-  }
-  
-  #gridContainer {
-    display: grid;
-    /*grid-gap: 0em;*/
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
+@font-face { font-family: lobster; src: url('fonts\\Lobster-Regular.ttf'); } 
     
-  }
-  
-  .grid-item {
-    padding: 1em;
-    border: 1px solid #ddd;
-    text-align: center;
-  }
+html {
+  font-family: lobster;
+  text-align: center;
+}
+
+  #gridContainer {
+  width:80vmin;
+  height:80vmin;
+  margin:auto;
+  display: grid;
+}
+
+.griditem {
+  padding: 1em;
+  border: 1px solid #ddd;
+  text-align: center;
+}
