@@ -12,9 +12,7 @@ html {
   margin:auto;
   border: 2px solid black;
 }
-*/
 
 .gridItem {
-  padding: 1em;
-  border: 1px solid rgb(204, 20, 20);
+  background: pink;
 }
