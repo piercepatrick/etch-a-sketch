@@ -3,9 +3,20 @@
 html {
   font-family: lobster;
   text-align: center;
+  background: pink;
 }
 
-  #gridContainer {
+#mainContainer {
+  margin-bottom: 1%;
+}
+
+.menuButtons {
+  font-family: inherit;
+  background: white;
+  padding: 1em;
+}
+
+#gridContainer {
   display: grid;
   width:80vmin;
   height:80vmin;
@@ -14,5 +25,5 @@ html {
 }
 
 .gridItem {
-  background: pink;
+  background: white;
 }
